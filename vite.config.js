@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Finance-Dashboard-UI/',
+  base: "/finance-dashboard/",   // ⭐ THIS FIXES YOUR ISSUE
 })
